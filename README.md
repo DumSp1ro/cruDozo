@@ -1,3 +1,20 @@
+![image](https://github.com/DumSp1ro/cruDozo/assets/146105715/c4443e4f-245a-40b6-b0a1-1a3523ab3c3c)</br>
+![image](https://github.com/DumSp1ro/cruDozo/assets/146105715/4a74109d-af40-4fe7-bfc0-d475104a2ea4)</br>
+![image](https://github.com/DumSp1ro/cruDozo/assets/146105715/e57383d9-5908-4caf-b7c3-0c9bd25fd0c0)</br>
+![image](https://github.com/DumSp1ro/cruDozo/assets/146105715/a0dfeccd-a0ee-402e-bc31-0aa99b9483ce)
+
+
+
+
+
+
+
+
+
+
+
+
+----
 ![image](https://github.com/DumSp1ro/cruDozo/assets/146105715/2e9cbe1d-cb89-4981-b229-746ca78ad3ec)
 ![image](https://github.com/DumSp1ro/cruDozo/assets/146105715/281bf572-57e7-4ccb-a48b-18d980c1a9fa)
 
