@@ -24,3 +24,37 @@
                 }
             }
         }
+
+
+        <DataGrid.Columns>
+                <DataGridTextColumn Header="Номер" Binding="{Binding ID}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата" Binding="{Binding Data,StringFormat={}{0:dd/MM/yyyy}}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Оборудование" Binding="{Binding Oborud.NameOborud}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Тип неиправности" Binding="{Binding Neisp.TypeNeisp}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Описание проблемы" Binding="{Binding OpisanieProblem}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Клиент" Binding="{Binding Client.NameClient}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status.StatusZayavki}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Исполнитель" Binding="{Binding Ispolnitel.NameIspolnitel}" Width="auto" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Комментарий" Binding="{Binding Comment}" Width="auto" ></DataGridTextColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BntDell" Click="Save" Width="150">Сохранить</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BntEdit" Click="Edit_Click" Width="150">Редактировать</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BntDell" Click="Delete" Width="150">Удалить</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
